@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Personal Profile — Your Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <!-- Top section: profile circle (left) + talk about yourself (right) -->
+    <section class="hero" aria-labelledby="talk-heading">
+      <div class="avatar" aria-hidden="true">
+        <!-- Put an actual photo at images/profile.jpg OR the initials will show -->
+        <img src="Images/tomi.jpg" alt="Profile photo" onerror="this.style.display='none'">
+        <div class="initials"></div>
+      </div>
+
+      <div class="about">
+        <h2 id="talk-heading">Talk about yourself</h2>
+        <h1 class="name">Salau Oluwatomisin</h1>
+        <p class="intro">
+          Hi, I’m <strong>Oluwatomisin Salau</strong>. I’m learning web development and building small projects that solve real problems.
+          I enjoy working with HTML, CSS and JavaScript and I’m excited to keep improving.
+        </p>
+      </div>
+    </section>
+
+    <!-- Two equal boxes below: Hobbies + Aspiration -->
+    <section class="grid-below">
+      <article class="card hobbies" aria-labelledby="hobbies-heading">
+        <h3 id="hobbies-heading">Hobbies</h3>
+        <ul>
+          <li><strong>Reading:</strong> I like tech books and short stories — I read at least one chapter a day.</li>
+          <li><strong>Coding small projects:</strong> I practise building small apps and landing pages to learn new CSS/layout tricks.</li>
+        </ul>
+      </article>
+
+      <article class="card aspiration" aria-labelledby="aspiration-heading">
+        <h3 id="aspiration-heading">Aspiration in life</h3>
+        <p>
+          I aspire to become a front-end developer who builds accessible, performant apps and teaches others.
+          Long-term I’d love to work on products that help learners in Africa get access to affordable tech education.
+        </p>
+      </article>
+    </section>
+
+    <footer class="site-footer">
+      <p>Call me for more information via Phone - +2348106788029.</p>
+    </footer>
+  </main>
+</body>
+</html>
